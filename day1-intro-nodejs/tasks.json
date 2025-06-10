@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "First Task",
+    "dueDate": "18-06-2025",
+    "completed": false
+  },
+  {
+    "id": 2,
+    "title": "Second Task",
+    "dueDate": "16-06-2025",
+    "completed": true
+  },
+  {
+    "id": 3,
+    "title": "Third Task",
+    "dueDate": "11-06-2025",
+    "completed": true
+  },
+  {
+    "id": 4,
+    "title": "Fourth Task",
+    "dueDate": "13-06-2025",
+    "completed": false
+  }
+]
