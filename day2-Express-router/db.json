@@ -1,0 +1,34 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "name": "Express.js Basics",
+      "instructor": "John Doe",
+      "duration": "4"
+    },
+    {
+      "id": 2,
+      "name": "Advanced Express.js",
+      "instructor": "Jane Smith",
+      "duration": "6"
+    },
+    {
+      "id": 3,
+      "name": "Advanced js",
+      "instructor": "Jane Smith",
+      "duration": "6"
+    },
+    {
+      "id": 4,
+      "name": "Advanced node.js",
+      "instructor": "Jane Smith",
+      "duration": "6"
+    },
+    {
+      "name": "Basic css & html",
+      "instructor": "Smith Dwyane",
+      "duration": "12",
+      "id": 6
+    }
+  ]
+}
