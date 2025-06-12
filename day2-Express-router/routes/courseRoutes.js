@@ -7,12 +7,14 @@ const {
     getCourseById,
     getCourseByQuery
 } = require("../controllers/courseController");
+const dataCheck = require("../middleware/dataCheck");
 
 const router = express.Router();
 
 router.get("/all-courses", GetAllCourse)
 
-router.post("/add-course", addCourse)
+// Post route to add a course with data validation middleware (dataCheck)
+router.post("/add-course", dataCheck, addCourse)
 
 router.put("/update-course/:id", updateCourse)
 

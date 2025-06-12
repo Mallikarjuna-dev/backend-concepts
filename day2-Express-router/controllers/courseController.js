@@ -7,6 +7,10 @@ const GetAllCourse = (req, res) => {
 }
 
 const addCourse = (req, res) => {
+    // let { name, instructor, duration } = req.body;
+    // if (!name || !instructor || !duration) {
+    //     return res.status(400).json({ msg: "Please provide all required fields: name, instructor, and duration." });
+    // }
     let newCourse = req.body;
     let data = getData().data;
     let courses = getData().courses;

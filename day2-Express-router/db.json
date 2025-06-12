@@ -43,7 +43,7 @@
       "id": 8
     },
     {
-      "name": "Basic ES6/JS",
+      "name": "Advanced ES6/JS",
       "instructor": "Santosh Kumar",
       "duration": "8",
       "id": 10
@@ -59,6 +59,18 @@
       "instructor": "Smith",
       "duration": "6",
       "id": 12
+    },
+    {
+      "name": "Dhoom",
+      "instructor": "drama entertainer",
+      "duration": "8.7",
+      "id": 14
+    },
+    {
+      "name": "Intro to CSS3",
+      "instructor": "Smith",
+      "duration": "6",
+      "id": 16
     }
   ]
 }

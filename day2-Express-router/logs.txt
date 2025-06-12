@@ -1,0 +1,10 @@
+Method: GET | EndPoint: /test
+Method: GET | EndPoint: /courses/all-courses
+Method: POST | EndPoint: /courses/add-course
+Method: PUT | EndPoint: /courses/update-course/10
+Method: GET | EndPoint: /courses/course/11
+Method: GET | EndPoint: /courses/course?title=Python
+Method: DELETE | EndPoint: /courses/delete-course/13
+Method: GET | EndPoint: /lectures/all-lectures
+Method: GET | EndPoint: /attendance
+Method: DELETE | EndPoint: /courses/delete-course/15

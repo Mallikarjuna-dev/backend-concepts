@@ -1,12 +1,15 @@
 const express = require("express");
 const courseRoutes = require("./routes/courseRoutes");
 const lectureRoutes = require("./routes/lectureRoutes");
+const loggerMiddleware = require("./middleware/logger");
 
 const app = express();
 
 app.use(express.json()); // Middleware to parse JSON bodies.
 
 // app.use(express.urlencoded({ extended: true })); // Middleware to parse URL-encoded bodies
+
+app.use(loggerMiddleware); // Custom middleware to log requests
 
 // Test route to check if the server is running
 app.get("/test", (req, res) => {
