@@ -29,6 +29,36 @@
       "instructor": "Smith Dwyane",
       "duration": "12",
       "id": 6
+    },
+    {
+      "name": "Advanced Python",
+      "instructor": "Jane Smith",
+      "duration": "6",
+      "id": 7
+    },
+    {
+      "name": "Intro to MongoDB",
+      "instructor": "Jane Smith",
+      "duration": "6",
+      "id": 8
+    },
+    {
+      "name": "Basic ES6/JS",
+      "instructor": "Santosh Kumar",
+      "duration": "8",
+      "id": 10
+    },
+    {
+      "name": "Intro to HTML5",
+      "instructor": "Smith",
+      "duration": "6",
+      "id": 11
+    },
+    {
+      "name": "Intro to HTML5",
+      "instructor": "Smith",
+      "duration": "6",
+      "id": 12
     }
   ]
 }
