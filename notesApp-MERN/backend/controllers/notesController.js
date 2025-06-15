@@ -2,7 +2,7 @@ const Note = require("../models/Note");
 
 
 const getNotes = async (req, res) => {
-    const notes = await Note.find({ user: req.user._id }).sort({ createdAt: -1 });
+    const notes = await Note.find({ userId: req.user._id }).sort({ createdAt: -1 });
     res.status(200).json(notes);
 };
 
@@ -15,7 +15,7 @@ const createNote = async (req, res) => {
         const note = await Note.create({
             title,
             content,
-            user: req.user._id
+            userId: req.user.id
         });
         res.status(201).json(note);
     } catch (error) {
