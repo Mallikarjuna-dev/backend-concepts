@@ -8,7 +8,7 @@ const { default: mongoose } = require("mongoose");
 
 const connectDB = async () => {
     mongoose.connect("mongodb+srv://mallikarjuna27:Ajju_2748@cluster0.xzom9qc.mongodb.net/todosApp").then(() => {
-        console.log("db connection successful");
+        console.log("db connection successful.");
     }).catch((err) => {
         console.log("db connection failed", err);
     });
